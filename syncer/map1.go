@@ -12,7 +12,7 @@ import (
  * @Project : Chapter6
  * @Author  : Saitama
  * @IDE     : GoLand
- * @Desc    : sync.Map-并发安全的map，因为Go语言内置的map不是并发安全的，如下所示
+ * @Desc    : sync.Map-并发安全的map，因为Go语言内置的map不是并发安全的，如下所示，会报fatal error: concurrent map writes
  */
 
 var wg3 sync.WaitGroup
